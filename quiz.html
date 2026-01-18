@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz HTML – Portfolio Mahdi Baccour</title>
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+
+<header>
+    <h1>Bienvenue sur mon portfolio</h1>
+    <nav>
+        <ul>
+            <li><a href="index1.html">Accueil</a></li>
+            <li><a href="education1.html">Parcours</a></li>
+            <li><a href="competence1.html">Compétences</a></li>
+            <li><a href="experience1.html">Stages</a></li>
+            <li><a href="projets1.html">Projets</a></li>
+            <li><a href="events.html">Évènements</a></li>
+            <li><a href="passions.html">Passions</a></li>
+            <li><a href="quiz.html">Quizz</a></li>
+            <li><a href="contact1.html">Contact</a></li>
+            <li><a href="temoignage.html">Témoignage IIT</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Quizz HTML</h2>
+    
+    <div class="quiz-container">
+        <div class="quiz-header">
+            
+            <div class="score-display">Score: <span id="score">0</span>/20</div>
+        </div>
+        
+        <form id="quiz-form">
+            <div class="question">
+                <h3>1. Que signifie HTML ?</h3>
+                <label><input type="radio" name="q1" value="a"> HyperText Markup Language</label>
+                <label><input type="radio" name="q1" value="b"> High Tech Modern Language</label>
+                <label><input type="radio" name="q1" value="c"> Home Tool Markup Language</label>
+                <label><input type="radio" name="q1" value="d"> Hyperlink Text Markup Language</label>
+            </div>
+            
+            <div class="question">
+                <h3>2. Quelle balise HTML est utilisée pour créer un lien ?</h3>
+                <label><input type="radio" name="q2" value="a"> link</label>
+                <label><input type="radio" name="q2" value="b"> a</label>
+                <label><input type="radio" name="q2" value="c"> href</label>
+                <label><input type="radio" name="q2" value="d"> url</label>
+            </div>
+            
+            <div class="question">
+                <h3>3. Quelle balise est utilisée pour créer un titre principal ?</h3>
+                <label><input type="radio" name="q3" value="a"> title</label>
+                <label><input type="radio" name="q3" value="b"> h1</label>
+                <label><input type="radio" name="q3" value="c"> head</label>
+                <label><input type="radio" name="q3" value="d"> header</label>
+            </div>
+            
+            <div class="question">
+                <h3>4. Quelle balise HTML est utilisée pour insérer une image ?</h3>
+                <label><input type="radio" name="q4" value="a"> img</label>
+                <label><input type="radio" name="q4" value="b"> image</label>
+                <label><input type="radio" name="q4" value="c"> picture</label>
+                <label><input type="radio" name="q4" value="d"> photo</label>
+            </div>
+            
+            <div class="question">
+                <h3>5. Quelle balise est utilisée pour créer une liste non ordonnée ?</h3>
+                <label><input type="radio" name="q5" value="a"> ol</label>
+                <label><input type="radio" name="q5" value="b"> ul</label>
+                <label><input type="radio" name="q5" value="c"> li</label>
+                <label><input type="radio" name="q5" value="d"> list</label>
+            </div>
+            
+            <div class="question">
+                <h3>6. Quelle balise HTML est utilisée pour créer un tableau ?</h3>
+                <label><input type="radio" name="q6" value="a"> table</label>
+                <label><input type="radio" name="q6" value="b"> tab</label>
+                <label><input type="radio" name="q6" value="c"> grid</label>
+                <label><input type="radio" name="q6" value="d"> data</label>
+            </div>
+            
+            <div class="question">
+                <h3>7. Quelle balise est utilisée pour créer un formulaire ?</h3>
+                <label><input type="radio" name="q7" value="a"> form</label>
+                <label><input type="radio" name="q7" value="b"> input</label>
+                <label><input type="radio" name="q7" value="c"> fieldset</label>
+                <label><input type="radio" name="q7" value="d"> submit</label>
+            </div>
+            
+            <div class="question">
+                <h3>8. Quelle balise HTML est utilisée pour créer un paragraphe ?</h3>
+                <label><input type="radio" name="q8" value="a"> para</label>
+                <label><input type="radio" name="q8" value="b"> p</label>
+                <label><input type="radio" name="q8" value="c"> paragraph</label>
+                <label><input type="radio" name="q8" value="d"> text</label>
+            </div>
+            
+            <div class="question">
+                <h3>9. Quelle balise est utilisée pour créer un saut de ligne ?</h3>
+                <label><input type="radio" name="q9" value="a"> br</label>
+                <label><input type="radio" name="q9" value="b"> break</label>
+                <label><input type="radio" name="q9" value="c"> lb</label>
+                <label><input type="radio" name="q9" value="d"> newline</label>
+            </div>
+            
+            <div class="question">
+                <h3>10. Quelle balise HTML est utilisée pour mettre du texte en gras ?</h3>
+                <label><input type="radio" name="q10" value="a"> bold</label>
+                <label><input type="radio" name="q10" value="b"> b</label>
+                <label><input type="radio" name="q10" value="c"> strong</label>
+                <label><input type="radio" name="q10" value="d"> gras</label>
+            </div>
+            
+            <button type="submit" id="submit-btn">Valider le quiz</button>
+        </form>
+        
+      
+    </div>
+</main>
+
+<footer>
+    <div class="socials">
+        <a href="https://www.facebook.com/mahdi.baccour.79" target="_blank"><img src="images/facebook (2).png" alt="Facebook" class="social-icon"></a>
+        <a href="https://www.linkedin.com/in/baccour-mahdi-16866b332/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn" class="social-icon"></a>
+        <a href="https://github.com/MahdiBaccour" target="_blank"><img src="images/github.png" alt="GitHub" class="social-icon"></a>
+        <a href="https://api.whatsapp.com/send/?phone=21626361063&text&type=phone_number&app_absent=0" target="_blank"><img src="images/whatsapp.png" alt="WhatsApp" class="social-icon"></a>
+    </div>
+    <p>© 2025 Mahdi Baccour — Tous droits réservés</p>
+</footer>
+
+<script src="script/quiz.js"></script>
+
+</body>
+</html>
+
