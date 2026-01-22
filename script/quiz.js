@@ -1,38 +1,39 @@
+var correctAnswers = ['a','b','b','a','b','a','a','b','a','b'];
 
-    var correctAnswers = ['a','b','b','a','b','a','a','b','a','b'];
+function submitQuiz() {
+    var score = 0;
+    var totalQuestions = 10;
 
-    function submitQuiz() {
-        var score = 0;
-        
-        for (var i = 0; i < 10; i++) {
-            var q = "q" + (i + 1);
-            var radios = document.getElementsByName(q);
-            var answer = "";
-            
-            for (var j = 0; j < radios.length; j++) {
-                if (radios[j].checked) {
-                    answer = radios[j].value;
-                    break;
-                }
-            }
-            
-            if (answer == "") {
-                alert("Veuillez répondre à toutes les questions.");
-                return;
-            }
-            
-            if (answer == correctAnswers[i]) {
-                score = score + 2;
+    for (var i = 0; i < totalQuestions; i++) {
+        var questionNumber = i + 1;
+        var questionName = "q" + questionNumber;
+
+        var allRadios = document.getElementsByName(questionName);
+        var selectedAnswer = "";
+
+        for (var j = 0; j < allRadios.length; j++) {
+            if (allRadios[j].checked == true) {
+                selectedAnswer = allRadios[j].value;
+                break;
             }
         }
-        
-        alert("Score : " + score + "/20");
-        document.getElementById("score").innerHTML = score;
-        document.getElementById("submit-btn").disabled = true;
+
+        if (selectedAnswer == "") {
+            alert("Veuillez répondre à toutes les questions avant de soumettre.");
+            return;
+        }
+
+        if (selectedAnswer == correctAnswers[i]) {
+            score = score + 2;
+        }
     }
 
-    document.getElementById("quiz-form").onsubmit = function(e) {
-        e.preventDefault();
-        submitQuiz();
-    };
+    alert("Votre score : " + score + " / 20");
+    document.getElementById("score").innerHTML = score;
+}
 
+var quizForm = document.getElementById("quiz-form");
+quizForm.onsubmit = function() {
+    e.preventDefault();
+    submitQuiz();
+};

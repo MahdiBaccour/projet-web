@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles Utilisés par Page - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #0d6efd;
+            border-bottom: 3px solid #0d6efd;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #0d6efd;
+            margin-top: 30px;
+            border-bottom: 2px solid #0d6efd;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #333;
+            margin-top: 20px;
+        }
+        .page-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .style-list {
+            background: #f9f9f9;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #0d6efd;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        code {
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        .tag {
+            color: #d63384;
+        }
+        .class {
+            color: #0d6efd;
+        }
+        .id {
+            color: #198754;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Documentation des Styles CSS Utilisés par Page</h1>
+<p><strong>Projet :</strong> Portfolio Mahdi Baccour<br>
+<strong>Fichier CSS :</strong> css/style1.css</p>
+
+<div class="page-section">
+    <h2>1. index.html - Page d'Accueil</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;h1&gt;</code> → <code>header h1</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;section&gt;</code> → <code>section</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>section p</code></li>
+            <li><code class="tag">&lt;strong&gt;</code> → <code>article strong</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.bio</code> - Section de présentation bio</li>
+            <li><code class="class">.profile</code> - Image de profil circulaire</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>body</strong>: font-family, margin, padding, background gradient</p>
+        <p><strong>header</strong>: background gradient, color, padding, margin, box-shadow</p>
+        <p><strong>header h1</strong>: text-align, margin, color, font-weight, text-shadow, letter-spacing</p>
+        <p><strong>nav ul li a</strong>: color, text-decoration, padding, display, border-radius, font-weight</p>
+        <p><strong>main</strong>: max-width, margin, padding, background gradient, border-radius, box-shadow</p>
+        <p><strong>main h2</strong>: color, margin, text-align, font-size, font-weight, text-shadow</p>
+        <p><strong>section</strong>: margin, padding, background gradient, border, border-radius, box-shadow</p>
+        <p><strong>.bio</strong>: text-align, padding, background gradient, border-radius, box-shadow, border</p>
+        <p><strong>.profile</strong>: width, height, border-radius, margin, border, box-shadow</p>
+        <p><strong>footer</strong>: background gradient, color, padding, margin, text-align, box-shadow</p>
+        <p><strong>footer .socials a</strong>: background gradient, box-shadow, padding</p>
+        <p><strong>.social-icon</strong>: width, height, display</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>2. education1.html - Parcours Académique</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;article&gt;</code> → <code>article</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>article h3</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>article p</code></li>
+            <li><code class="tag">&lt;strong&gt;</code> → <code>article strong</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.education</code> - Articles de formation académique</li>
+            <li><code class="class">.diploma-img</code> - Images des diplômes (rotation 270°)</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>article</strong>: margin, padding, background gradient, border-left, border-radius, box-shadow</p>
+        <p><strong>article h3</strong>: color, margin, font-weight, font-size, text-shadow</p>
+        <p><strong>article p</strong>: margin, color</p>
+        <p><strong>article strong</strong>: color, font-weight, background gradient, padding, border-radius</p>
+        <p><strong>.education</strong>: margin-bottom (spécifique)</p>
+        <p><strong>.diploma-img</strong>: display, margin, max-width, width, height, border-radius, box-shadow, transform (rotate)</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>3. competence1.html - Compétences Techniques</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;section&gt;</code> → <code>section</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>section h3</code></li>
+            <li><code class="tag">&lt;ul&gt;</code> → <code>ul</code></li>
+            <li><code class="tag">&lt;li&gt;</code> → <code>ul li</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>section</strong>: margin, padding, background gradient, border, border-radius, box-shadow</p>
+        <p><strong>section h2</strong>: color, margin</p>
+        <p><strong>section h3</strong>: color, margin, font-weight, font-size, padding-left</p>
+        <p><strong>ul</strong>: padding-left</p>
+        <p><strong>ul li</strong>: padding, color, list-style, border-bottom</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>4. experience1.html - Stages et Expériences</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;article&gt;</code> → <code>article</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>article h3</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>article p</code></li>
+            <li><code class="tag">&lt;strong&gt;</code> → <code>article strong</code></li>
+            <li><code class="tag">&lt;img&gt;</code> → <code>.experience-img</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.experience</code> - Articles d'expérience professionnelle</li>
+            <li><code class="class">.experience-img</code> - Images des stages/expériences</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>article</strong>: margin, padding, background gradient, border-left, border-radius, box-shadow</p>
+        <p><strong>article h3</strong>: color, margin, font-weight, font-size, text-shadow</p>
+        <p><strong>article p</strong>: margin, color</p>
+        <p><strong>article strong</strong>: color, font-weight, background gradient, padding, border-radius</p>
+        <p><strong>.experience</strong>: margin-bottom (spécifique)</p>
+        <p><strong>.experience-img</strong>: display, margin, max-width, width, height, border-radius, box-shadow</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>5. projets1.html - Projets Personnels</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;article&gt;</code> → <code>article</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>article h3</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>article p</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.projets</code> - Articles de projets personnels</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>article</strong>: margin, padding, background gradient, border-left, border-radius, box-shadow</p>
+        <p><strong>article h3</strong>: color, margin, font-weight, font-size, text-shadow</p>
+        <p><strong>article p</strong>: margin, color</p>
+        <p><strong>.projets</strong>: margin-bottom (spécifique)</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>6. events.html - Évènements</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;article&gt;</code> → <code>article</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>article h3</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>article p</code></li>
+            <li><code class="tag">&lt;strong&gt;</code> → <code>article strong</code></li>
+            <li><code class="tag">&lt;img&gt;</code> → <code>.event-img</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.education</code> - Articles d'évènements (réutilise la classe education)</li>
+            <li><code class="class">.event-img</code> - Images des évènements</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>article</strong>: margin, padding, background gradient, border-left, border-radius, box-shadow</p>
+        <p><strong>article h3</strong>: color, margin, font-weight, font-size, text-shadow</p>
+        <p><strong>article p</strong>: margin, color</p>
+        <p><strong>article strong</strong>: color, font-weight, background gradient, padding, border-radius</p>
+        <p><strong>.education</strong>: margin-bottom (spécifique)</p>
+        <p><strong>.event-img</strong>: display, margin, max-width, width, height, border-radius, box-shadow</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>7. passions.html - Passions</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;section&gt;</code> → <code>section</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>section h3</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>section p</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>section</strong>: margin, padding, background gradient, border, border-radius, box-shadow</p>
+        <p><strong>section h2</strong>: color, margin</p>
+        <p><strong>section h3</strong>: color, margin, font-weight, font-size, padding-left</p>
+        <p><strong>section p</strong>: margin, color</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>8. quiz.html - Quiz HTML</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;div&gt;</code> → <code>.quiz-container</code>, <code>.quiz-header</code>, <code>.question</code></li>
+            <li><code class="tag">&lt;form&gt;</code> → <code id="id">#quiz-form</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>.question h3</code></li>
+            <li><code class="tag">&lt;label&gt;</code> → <code>.question label</code></li>
+            <li><code class="tag">&lt;input&gt;</code> → <code>.question input[type="radio"]</code></li>
+            <li><code class="tag">&lt;button&gt;</code> → <code id="id">#submit-btn</code></li>
+            <li><code class="tag">&lt;span&gt;</code> → <code id="id">#score</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.quiz-container</code> - Conteneur principal du quiz</li>
+            <li><code class="class">.quiz-header</code> - En-tête du quiz</li>
+            <li><code class="class">.score-display</code> - Affichage du score</li>
+            <li><code class="class">.question</code> - Conteneur de chaque question</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>IDs CSS utilisés :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="id">#quiz-form</code> - Formulaire du quiz</li>
+            <li><code class="id">#submit-btn</code> - Bouton de soumission</li>
+            <li><code class="id">#score</code> - Affichage du score (utilisé par JavaScript)</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>.quiz-container</strong>: max-width, margin, padding, background gradient, border-radius, box-shadow</p>
+        <p><strong>.quiz-header</strong>: margin, padding, background gradient, border-radius, border</p>
+        <p><strong>.question</strong>: margin, padding, background gradient, border-radius, border</p>
+        <p><strong>.question h3</strong>: color, margin, font-size</p>
+        <p><strong>.question label</strong>: display, padding, margin, color, border-radius</p>
+        <p><strong>.question input[type="radio"]</strong>: margin-right</p>
+        <p><strong>#submit-btn</strong>: display, width, padding, background gradient, color, border, border-radius, font-size, font-weight, box-shadow, margin</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>9. contact1.html - Contact</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>.contact-intro</code>, <code>.contact-card p</code></li>
+            <li><code class="tag">&lt;div&gt;</code> → <code>.contact-cards</code>, <code>.contact-card</code>, <code>.contact-icon</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>.contact-card h3</code></li>
+            <li><code class="tag">&lt;img&gt;</code> → <code>.contact-icon-img</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.contact-intro</code> - Introduction de la page contact</li>
+            <li><code class="class">.contact-cards</code> - Grille des cartes de contact (display: grid)</li>
+            <li><code class="class">.contact-card</code> - Carte individuelle de contact</li>
+            <li><code class="class">.contact-icon</code> - Conteneur de l'icône</li>
+            <li><code class="class">.contact-icon-img</code> - Image de l'icône de contact</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>.contact-intro</strong>: text-align, color, margin, font-size</p>
+        <p><strong>.contact-cards</strong>: display grid, grid-template-columns, gap, margin</p>
+        <p><strong>.contact-card</strong>: background gradient, border, border-radius, padding, text-align, box-shadow</p>
+        <p><strong>.contact-card:hover</strong>: box-shadow, border-color, background gradient</p>
+        <p><strong>.contact-icon</strong>: font-size, margin, color, text-shadow</p>
+        <p><strong>.contact-icon-img</strong>: width, height, filter drop-shadow</p>
+        <p><strong>.contact-card h3</strong>: color, font-size, font-weight, margin</p>
+        <p><strong>.contact-card p</strong>: color, font-size, margin</p>
+        <p><strong>.contact-card:hover .contact-icon</strong>: color, text-shadow</p>
+        <p><strong>.contact-card:hover h3</strong>: color</p>
+        <p><strong>.contact-card:hover p</strong>: color</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>10. temoignage.html - Témoignage IIT</h2>
+    
+    <h3>Balises HTML utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="tag">&lt;body&gt;</code> → <code>body</code></li>
+            <li><code class="tag">&lt;header&gt;</code> → <code>header</code></li>
+            <li><code class="tag">&lt;nav&gt;</code> → <code>nav ul</code>, <code>nav ul li</code>, <code>nav ul li a</code></li>
+            <li><code class="tag">&lt;main&gt;</code> → <code>main</code></li>
+            <li><code class="tag">&lt;h2&gt;</code> → <code>main h2</code></li>
+            <li><code class="tag">&lt;section&gt;</code> → <code>section</code>, <code>.temoignage</code></li>
+            <li><code class="tag">&lt;article&gt;</code> → <code>article</code></li>
+            <li><code class="tag">&lt;h3&gt;</code> → <code>article h3</code></li>
+            <li><code class="tag">&lt;p&gt;</code> → <code>article p</code></li>
+            <li><code class="tag">&lt;footer&gt;</code> → <code>footer</code></li>
+        </ul>
+    </div>
+    
+    <h3>Classes CSS utilisées :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code class="class">.temoignage</code> - Section de témoignage</li>
+            <li><code class="class">.socials</code> - Conteneur des liens sociaux</li>
+            <li><code class="class">.social-icon</code> - Icônes des réseaux sociaux</li>
+        </ul>
+    </div>
+    
+    <h3>Styles CSS appliqués :</h3>
+    <div class="style-list">
+        <p><strong>section</strong>: margin, padding, background gradient, border, border-radius, box-shadow</p>
+        <p><strong>.temoignage</strong>: padding (spécifique)</p>
+        <p><strong>article</strong>: margin, padding, background gradient, border-left, border-radius, box-shadow</p>
+        <p><strong>article h3</strong>: color, margin, font-weight, font-size, text-shadow</p>
+        <p><strong>article p</strong>: margin, color</p>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>Styles Communs à Toutes les Pages</h2>
+    
+    <h3>Structure commune :</h3>
+    <div class="style-list">
+        <ul>
+            <li><strong>body</strong>: font-family, margin, padding, background gradient</li>
+            <li><strong>header</strong>: background gradient, color, padding, margin, box-shadow</li>
+            <li><strong>header h1</strong>: text-align, margin, color, font-weight, text-shadow, letter-spacing</li>
+            <li><strong>nav ul</strong>: list-style, padding, margin, text-align</li>
+            <li><strong>nav ul li</strong>: display inline-block, margin</li>
+            <li><strong>nav ul li a</strong>: color, text-decoration, padding, display, border-radius, font-weight</li>
+            <li><strong>nav ul li a:hover</strong>: background gradient, color, box-shadow, border-bottom</li>
+            <li><strong>main</strong>: max-width, margin, padding, background gradient, border-radius, box-shadow</li>
+            <li><strong>main h2</strong>: color, margin, text-align, font-size, font-weight, text-shadow</li>
+            <li><strong>footer</strong>: background gradient, color, padding, margin, text-align, box-shadow</li>
+            <li><strong>footer .socials a</strong>: background gradient, box-shadow, padding</li>
+            <li><strong>.social-icon</strong>: width, height, display</li>
+            <li><strong>footer p</strong>: margin, color, font-size</li>
+        </ul>
+    </div>
+    
+    <h3>Media Queries (Responsive) :</h3>
+    <div class="style-list">
+        <p><strong>@media (max-width: 768px)</strong>:</p>
+        <ul>
+            <li>header h1: font-size réduit</li>
+            <li>nav ul li: display block</li>
+            <li>main h2: font-size réduit</li>
+            <li>section, article: padding réduit</li>
+            <li>.profile: width et height réduits</li>
+            <li>.contact-cards: grid-template-columns 1fr</li>
+        </ul>
+    </div>
+</div>
+
+<div class="page-section">
+    <h2>Résumé des Classes et IDs Utilisés</h2>
+    
+    <h3>Classes CSS :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code>.bio</code> - Page index.html</li>
+            <li><code>.profile</code> - Page index.html</li>
+            <li><code>.education</code> - Pages education1.html, events.html</li>
+            <li><code>.diploma-img</code> - Page education1.html</li>
+            <li><code>.experience</code> - Page experience1.html</li>
+            <li><code>.experience-img</code> - Page experience1.html</li>
+            <li><code>.event-img</code> - Page events.html</li>
+            <li><code>.projets</code> - Page projets1.html</li>
+            <li><code>.contact-intro</code> - Page contact1.html</li>
+            <li><code>.contact-cards</code> - Page contact1.html</li>
+            <li><code>.contact-card</code> - Page contact1.html</li>
+            <li><code>.contact-icon</code> - Page contact1.html</li>
+            <li><code>.contact-icon-img</code> - Page contact1.html</li>
+            <li><code>.quiz-container</code> - Page quiz.html</li>
+            <li><code>.quiz-header</code> - Page quiz.html</li>
+            <li><code>.score-display</code> - Page quiz.html</li>
+            <li><code>.question</code> - Page quiz.html</li>
+            <li><code>.temoignage</code> - Page temoignage.html</li>
+            <li><code>.socials</code> - Toutes les pages (footer)</li>
+            <li><code>.social-icon</code> - Toutes les pages (footer)</li>
+        </ul>
+    </div>
+    
+    <h3>IDs CSS :</h3>
+    <div class="style-list">
+        <ul>
+            <li><code>#quiz-form</code> - Page quiz.html (utilisé par JavaScript)</li>
+            <li><code>#submit-btn</code> - Page quiz.html (utilisé par JavaScript)</li>
+            <li><code>#score</code> - Page quiz.html (utilisé par JavaScript)</li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
