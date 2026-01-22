@@ -33,7 +33,7 @@ function submitQuiz() {
 }
 
 var quizForm = document.getElementById("quiz-form");
-quizForm.onsubmit = function() {
+quizForm.onsubmit = function(e) {
     e.preventDefault();
     submitQuiz();
 };
